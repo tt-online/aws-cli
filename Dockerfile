@@ -1,6 +1,6 @@
 FROM python:latest
 
-RUN pip install --upgrade --user awscli
-RUN pip install --upgrade --user awsebcli
+RUN pip install --upgrade awscli
+RUN pip install --upgrade awsebcli
 
 CMD ["bash"]
